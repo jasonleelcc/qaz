@@ -14,7 +14,7 @@ public class MyController {
     String home(){return "AP is Running";}
 
     @RequestMapping("/test")
-    String test(){return "test";}
+    String test(){return "test  ";}
 
     @RequestMapping(value="test/{id}", method= RequestMethod.GET)
     String testId(@PathVariable("id") String id){
