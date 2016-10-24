@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class MyController {
     @RequestMapping("/")
-    String home(){return "AP is Running";}
+    String home(){return "AP is Running  ";}
 
     @RequestMapping("/test")
     String test(){return "test  ";}
